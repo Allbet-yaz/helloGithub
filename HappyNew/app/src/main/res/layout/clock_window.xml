@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:gravity="center"
+	android:background="@drawable/m1"
+	android:weightSum="1">
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:text="别慌，总有人会告诉你密码"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content"
+		android:textColor="#E00D00"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="300dp"
+		android:layout_marginBottom="10dp"
+		android:id="@+id/tv"
+		android:textSize="17sp"
+		android:layout_marginTop="15dp"
+		android:textColor="#FFFFFF"/>
+
+	<EditText
+		android:layout_height="wrap_content"
+		android:ems="10"
+		android:layout_width="wrap_content"
+		android:inputType="numberPassword"
+		android:shadowColor="@color/colorAccent"
+		android:hint="  请在这里输入密码"
+		android:id="@+id/clockWindowEditText1"/>
+
+	<Button
+		android:layout_height="wrap_content"
+		android:text="点击、获取序列号"
+		android:layout_width="wrap_content"
+		android:textColor="#000000"
+		android:id="@+id/clockwindowButton1"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content"
+		android:text="新年快乐"
+		android:textColor="#4B87FF"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content"
+		android:text="Happy New Year"
+		android:textColor="#4B87FF"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content"/>
+
+	<TextView
+		android:layout_height="wrap_content"
+		android:textAppearance="?android:attr/textAppearanceLarge"
+		android:layout_width="wrap_content"
+		android:text=""
+		android:textColor="#15D945"/>
+
+</LinearLayout>
+
